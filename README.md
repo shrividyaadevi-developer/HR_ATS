@@ -69,35 +69,50 @@ HR_ATS/
 └── README.md
 ```
 
+Got it — you want it to display properly formatted like a clean GitHub README (not all in one line).
+
+Here is your **fixed, properly formatted version**:
+
+---
 
 ## ⚙️ Setup Instructions
 
 ### 1. Clone Repository
 
+```bash
 git clone https://github.com/shrividyaadevi-developer/HR_ATS.git
 cd HR_ATS
+```
 
+---
 
 ### 2. Backend Setup
 
-
+```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate
 pip install -r ../requirements.txt
 uvicorn app.main:app --reload
+```
+
+---
 
 ### 3. Frontend Setup
 
+```bash
 cd frontend
 npm install
 npm start
+```
 
+---
 
 ## 🔐 Environment Variables
 
 Create a `.env` file inside `backend/`:
 
+```env
 DATABASE_URL=your_database_url_here
 SECRET_KEY=your_secret_key_here
 ALGORITHM=HS256
@@ -112,3 +127,5 @@ MAIL_PORT=587
 
 EMBEDDING_MODEL=all-MiniLM-L6-v2
 REACT_APP_API_URL=http://localhost:8000
+```
+
