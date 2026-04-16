@@ -48,8 +48,10 @@ The system automates resume screening, candidate management, and hiring workflow
 
 ---
 
+
 ## 📁 Project Structure
 
+```txt
 HR_ATS/
 │
 ├── backend/
@@ -65,6 +67,7 @@ HR_ATS/
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 ## ⚙️ Setup Instructions
